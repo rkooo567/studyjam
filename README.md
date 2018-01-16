@@ -1,6 +1,8 @@
 # Study Jam Hack Davis
 Web app that helps people to group together for online lectures. 
-> **ReactJS, Firebase**
+> **React 15.4.0, 
+<br /> React Router 4, 
+<br /> Firebase 3.6.1**
 
 ## How to start
 ```
