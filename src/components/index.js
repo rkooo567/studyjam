@@ -54,6 +54,8 @@ export default class App extends Component {
     this.removeListener()
   }
   render() {
+    // This line means if this.state.loading is true, return the first
+    // statement after ?,  otherwise return the second statement after :
     return this.state.loading === true ? <h1>Loading</h1> : (
       <BrowserRouter>
         <div>
