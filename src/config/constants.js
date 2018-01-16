@@ -1,9 +1,12 @@
 import firebase from 'firebase'
 
 const config = {
-  apiKey: "AIzaSyDHL6JFTyBcaV60WpE4yXfeO0aZbzA9Xbk",
-  authDomain: "practice-auth.firebaseapp.com",
-  databaseURL: "https://practice-auth.firebaseio.com",
+    apiKey: "AIzaSyCdEGNjaJo8rHxxmDE944rvOLZAkaZrAiI",
+    authDomain: "study-jam-b8f53.firebaseapp.com",
+    databaseURL: "https://study-jam-b8f53.firebaseio.com",
+    projectId: "study-jam-b8f53",
+    storageBucket: "",
+    messagingSenderId: "655884521462"
 }
 
 firebase.initializeApp(config)
